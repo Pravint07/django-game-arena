@@ -1,0 +1,9 @@
+{% extends 'game/base.html' %}
+{% block content %}
+<h2>Fight Screen</h2>
+<div id="arena">
+    <p>Player 1 vs Player 2</p>
+    <button onclick="attack()">Attack</button>
+</div>
+<script src="{% static 'game/js/game.js' %}"></script>
+{% endblock %}
