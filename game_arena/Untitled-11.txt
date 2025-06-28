@@ -1,0 +1,1 @@
+gunicorn pyfightarena.wsgi:application
